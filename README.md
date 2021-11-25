@@ -1,4 +1,4 @@
-# in root folder project create config.json file
+### in root folder project create config.json file
 
 ```javascript
 
@@ -9,9 +9,9 @@
 
 ```
 
-# then in cervices folder create http.service.js file
-## use axios.interceptors to config getting data from firebase
-## /\/$/gi.test(config.url) regular expression removes ending / from url
+### then in services folder create http.service.js file
+### use axios.interceptors to config getting data from firebase
+### use regular expression to remove ending / from url
 
 ```javascript
 
@@ -38,8 +38,8 @@ axios.interceptors.request.use(
 ```
 
 
-# transform data from firebase
-## axios.interceptors.response.use transform data from firebase
+### how to transform data from firebase
+### axios.interceptors.response.use transform data from firebase
 
 ```javascript
 
